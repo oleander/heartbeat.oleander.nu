@@ -1,5 +1,5 @@
 require "sinatra"
 
-get "/" do
+get "/?" do
   halt 200, "a heartbeat"
 end
