@@ -6,6 +6,6 @@ Monitored by [Pingdom](http://pingdom.com/).
 
 ## Requests
 
-## GET /
+### GET /
 
 Is the server alive?
