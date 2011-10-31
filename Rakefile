@@ -8,7 +8,7 @@ begin
   require "vlad/git"
   
   # Deploy config    
-  set :repository,   "git@github.com:oleander/heartbeat.git"
+  set :repository,   "git@github.com:oleander/heartbeat.oleander.nu.git"
   set :revision,     "origin/master"
   set :deploy_to,    "/opt/www/heartbeat.oleander.nu"
   set :domain,       "webmaster@burken"
