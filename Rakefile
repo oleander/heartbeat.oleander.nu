@@ -7,12 +7,13 @@ begin
   require "vlad/core"
   require "vlad/git"
   
-  # Deploy config
-  set :repository, "git@github.com:oleander/heartbeat.git"
-  set :revision,   "origin/master"
-  set :deploy_to,  "/opt/www/heartbeat.oleander.nu"
-  set :domain,     "webmaster@burken"
-  set :mkdirs,     ["."]
+  # Deploy config    
+  set :repository,   "git@github.com:oleander/heartbeat.git"
+  set :revision,     "origin/master"
+  set :deploy_to,    "/opt/www/heartbeat.oleander.nu"
+  set :domain,       "webmaster@burken"
+  set :mkdirs,       ["."]
+  set :skip_scm,     false
   set :shared_paths, {"vendor" => "vendor"}
   
   set :bundle_cmd, "bundle"
